@@ -48,7 +48,6 @@ highlight ColorColumn ctermbg=darkgray
 set autoread
 set backspace=indent,eol,start
 set confirm
-set dir=~/.cache/vim
 set formatoptions+=j
 set hidden
 set history=1000
