@@ -52,6 +52,5 @@ set formatoptions+=j
 set hidden
 set history=1000
 set nomodeline
-set noswapfile
 set nrformats-=octal
 set spell
