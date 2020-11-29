@@ -1,5 +1,11 @@
-# Dotfiles
-
+<p align="center">
+  <a href="https://www.github.com/teddywilson/dotfiles">
+    <img alt="Cool Mint Crunch" src="cool-mint-crunch.jpg" width=200 />
+  </a>
+</p>
+<h1 align="center">
+  Dotfiles
+</h1>
 My local dotfiles.
 
 ## Usage
