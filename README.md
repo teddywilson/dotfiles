@@ -13,6 +13,7 @@ My local dotfiles.
 
 ### Vim
 1.  Symlink repository's `.vim/` directory to `~/.vim/`
+    * On Mac OSX, e.g.: `rm -rf ~/.vim && ln -s ln -s /Path/to/dotfiles/vim/.vim /Users/${you}/.vim`
 2.  Create a `~/.vimrc` file with the following line:
     `source path/to/vim-config/.vimrc`
 
