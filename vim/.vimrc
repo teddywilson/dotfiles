@@ -10,6 +10,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'sheerun/vim-polyglot'
 " Python indentation
 Plugin 'Vimjas/vim-python-pep8-indent'
+" Asynchronous Lint Engine
+Plugin 'dense-analysis/ale'
 call vundle#end()
 
 filetype plugin indent on " required by Vundle
