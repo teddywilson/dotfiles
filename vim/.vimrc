@@ -8,6 +8,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " Syntax highlighting
 Plugin 'sheerun/vim-polyglot'
+" Python indentation
+Plugin 'Vimjas/vim-python-pep8-indent'
 call vundle#end()
 
 filetype plugin indent on " required by Vundle

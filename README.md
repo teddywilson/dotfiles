@@ -24,8 +24,6 @@ My local dotfiles.
     `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 4.  Install Vundle plugins `vim +PluginInstall +qall`
 
-NOTE: For now, I've kept plugin installs included with the repo, but maybe I shouldn't?
-
 ### Brew
 1.  `cd macos && brew bundle`
 
