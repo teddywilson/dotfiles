@@ -54,3 +54,7 @@ set history=1000
 set nomodeline
 set nrformats-=octal
 set spell
+
+"Mappings
+nnoremap <esc> :noh<return><esc>
+
