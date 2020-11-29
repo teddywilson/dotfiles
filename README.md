@@ -31,3 +31,7 @@ My local dotfiles.
 1.  `cd macos && brew bundle`
 
 NOTE: Search for apps [here](https://formulae.brew.sh/).
+
+## TODO
+- [ ] Create script to initialize everything above
+- [ ] Add `.zshrc` and generalize it
