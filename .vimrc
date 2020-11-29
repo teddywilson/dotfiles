@@ -1,5 +1,3 @@
-"TODO(teddywilson) Clean up the organization of this file.
-
 set shell=/bin/zsh
 
 set encoding=utf-8
@@ -13,9 +11,9 @@ set secure
 set comments=sl:/*,mb:\ *,elx:\ */
 
 "Indentation
+filetype indent on
 set autoindent
 set smartindent
-filetype indent on
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -30,11 +28,12 @@ set incsearch
 set smartcase
 
 "UI
+highlight ColorColumn ctermbg=darkgray
+colorscheme monokai
 set laststatus=2
 set ruler
 set wildmenu
 set tabpagemax=50
-colorscheme monokai
 set cursorline
 set number
 set relativenumber
@@ -44,7 +43,6 @@ set mouse=a
 set title
 set background=dark
 set colorcolumn=100
-highlight ColorColumn ctermbg=darkgray
 
 "Misc.
 set autoread
@@ -57,7 +55,13 @@ set nomodeline
 set nrformats-=octal
 set spell
 
-"Mappings
+""""""""""""""""""""""""""""""
+"        Key Mappings        "
+""""""""""""""""""""""""""""""
+
+"For now, we'll leave the key mappings separate,
+"but perhaps they should be organized by domain
+"like above.
 
 "Toggle Relative Number
 nnoremap <silent> <leader>nb :set relativenumber!<CR>
