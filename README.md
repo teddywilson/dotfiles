@@ -15,6 +15,11 @@ My local dotfiles.
 1.  Symlink repository's `.vim/` directory to `~/.vim/`
 2.  Create a `~/.vimrc` file with the following line:
     `source path/to/vim-config/.vimrc`
+3.  Install [Vundle](https://github.com/VundleVim/Vundle.vim) in `~/.vim/bundle/Vundle.vim`.
+    `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+4.  Install Vundle plugins `vim +PluginInstall +qall`
+
+NOTE: For now, I've kept plugin installs included with the repo, but maybe I shouldn't?
 
 ### Brew
 1.  `cd macos && brew bundle`

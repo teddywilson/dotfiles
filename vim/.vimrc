@@ -1,3 +1,18 @@
+set nocompatible " required by Vundle
+filetype off     " required by Vundle
+
+" Vundle runtime path
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" Let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+" Syntax highlighting
+Plugin 'sheerun/vim-polyglot'
+call vundle#end()
+
+filetype plugin indent on " required by Vundle
+
+
 set shell=/bin/zsh
 
 set encoding=utf-8
