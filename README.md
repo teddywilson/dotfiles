@@ -12,7 +12,12 @@ My local dotfiles.
 1.  Clone the repository
 
 ### Vim
-1.  Symlink repository's `.vim/` directory to `~/.vim/`
+1.  Symlink repository's `vim/.vim/` directory to `~/.vim/`
+    * On Mac OSX: 
+    ```
+    rm -rf ~/.vim
+    ln -s /path/to/dotfiles/vim/.vim /Users/$(whoami)/.vim
+    ```
 2.  Create a `~/.vimrc` file with the following line:
     `source path/to/vim-config/.vimrc`
 3.  Install [Vundle](https://github.com/VundleVim/Vundle.vim) in `~/.vim/bundle/Vundle.vim`.
