@@ -15,3 +15,8 @@ My local dotfiles.
 1.  Symlink repository's `.vim/` directory to `~/.vim/`
 2.  Create a `~/.vimrc` file with the following line:
     `source path/to/vim-config/.vimrc`
+
+### Brew
+1.  `cd macos && brew bundle`
+
+NOTE: Search for apps [here](https://formulae.brew.sh/).

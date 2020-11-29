@@ -1,0 +1,5 @@
+cask 'caffeine'
+cask 'docker'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'visual-studio-code'
