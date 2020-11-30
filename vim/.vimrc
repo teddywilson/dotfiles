@@ -63,6 +63,8 @@ set background=dark
 set colorcolumn=100
 " Open new panes below by default
 set splitbelow
+" Open new panes to the right by default
+set splitright
 
 " Misc.
 set autoread
