@@ -61,6 +61,8 @@ set mouse=a
 set title
 set background=dark
 set colorcolumn=100
+" Open new panes below by default
+set splitbelow
 
 " Misc.
 set autoread
@@ -136,3 +138,9 @@ nnoremap <leader>v :tabedit ~/.vimrc<CR>
 nnoremap <leader>q :q!<CR>
 " Saves the file (handling the permission-denied error)
 cnoremap w!! w !sudo tee % >/dev/null
+" Easier split navigation (e.g., ctrl-j) to save two keystrokes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
