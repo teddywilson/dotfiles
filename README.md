@@ -32,6 +32,9 @@ My local dotfiles.
 
 NOTE: Search for apps [here](https://formulae.brew.sh/).
 
+### Zsh
+
+
 ## TODO
 - [ ] Create script to initialize everything above
 - [ ] Add `.zshrc` and generalize it
