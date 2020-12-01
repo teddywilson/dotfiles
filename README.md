@@ -33,7 +33,18 @@ My local dotfiles.
 NOTE: Search for apps [here](https://formulae.brew.sh/).
 
 ### Zsh
-
+1.  Install [Oh My Zsh](https://ohmyz.sh/)
+2.  Update environment variables in `zsh/.zshrc`
+    * `$ZSH` and `$DOTFILES`
+    * TODO(teddywilson) improve this?
+3.  Symlink `zsh/.zshrc` to `~/.zshrc`
+    ```
+    rm ~/.zshrc
+    ln -s /path/to/dotfiles/zsh/.zshrc ~/.zshrc
+    ```
+4.  Local aliases created under `zsh/` will be automatically
+    sourced and not checked into git. These must be suffixed
+    with `local.zsh`. E.g., `aliases.local.zsh`.
 
 ## TODO
 - [ ] Create script to initialize everything above
