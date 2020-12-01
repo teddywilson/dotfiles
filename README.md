@@ -23,7 +23,7 @@ My local dotfiles.
     ```
     git clone \
       https://github.com/VundleVim/Vundle.vim.git \
-      ~/.vim/bundle/Vundle.vim`
+      ~/.vim/bundle/Vundle.vim
     ```  
 4.  Install Vundle plugins `vim +PluginInstall +qall`
 
