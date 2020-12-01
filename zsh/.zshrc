@@ -1,9 +1,8 @@
 # REQUIRED
 export ZSH=$HOME/.oh-my-zsh
-source $ZSH/oh-my-zsh.sh
-
 export ZSH_THEME="robbyrussell"
 export COMPLETION_WAITING_DOTS="true"
+source $ZSH/oh-my-zsh.sh
 
 # REQUIRED
 export DOTFILES=$HOME/dev/dotfiles
