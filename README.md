@@ -48,4 +48,4 @@ NOTE: Search for apps [here](https://formulae.brew.sh/).
 
 ## TODO
 - [ ] Create script to initialize everything above
-- [ ] Add `.zshrc` and generalize it
+- [x] Add `.zshrc` and generalize it
