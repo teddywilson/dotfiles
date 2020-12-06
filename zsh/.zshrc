@@ -16,11 +16,13 @@ fi
 
 # All of our zsh files
 # *.local.zsh files will not be checked in to git
+# TODO(teddywilson) maybe reference *.local.zsh from another directory in case repo moves
 typeset -U config_files
 alias_files=($DOTFILES/zsh/*.zsh)
 
 # Source alias files
-for file in ${(M)config_files}
+for file in ${(M)alias_files}
 do
+  echo $file
   source $file
 done
