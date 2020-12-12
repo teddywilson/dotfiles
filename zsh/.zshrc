@@ -1,6 +1,8 @@
 # REQUIRED
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="robbyrussell"
+export PROMPT='%F{blue}%1~%f %# '
+
 export COMPLETION_WAITING_DOTS="true"
 source $ZSH/oh-my-zsh.sh
 
@@ -23,6 +25,5 @@ alias_files=($DOTFILES/zsh/*.zsh)
 # Source alias files
 for file in ${(M)alias_files}
 do
-  echo $file
   source $file
 done
