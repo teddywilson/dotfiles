@@ -2,7 +2,7 @@ set nocompatible " required by Vundle
 filetype off     " required by Vundle
 
 " Vundle runtime path
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=$HOME/.vim/bundle/Vundle.vim
 call vundle#begin()
 " Let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
