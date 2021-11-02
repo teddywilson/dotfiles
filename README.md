@@ -36,7 +36,8 @@ My local dotfiles.
 4.  Install Vundle plugins `vim +PluginInstall +qall`
 
 ### Brew
-1.  `cd macos && brew bundle`
+1.  Install [Brew](https://brew.sh).
+2.  `cd macos && brew bundle`
 
 NOTE: Search for apps [here](https://formulae.brew.sh/).
 
