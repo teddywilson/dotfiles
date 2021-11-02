@@ -1,6 +1,10 @@
+# brew install
+brew 'yarn'
+
+# brew install --cask
 cask 'docker'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'spotify'
 cask 'visual-studio-code'
-cask 'yarn'
+
