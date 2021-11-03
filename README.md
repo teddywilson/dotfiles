@@ -38,6 +38,10 @@ My local dotfiles.
 ### Brew
 1.  Install [Brew](https://brew.sh).
 2.  `cd macos && brew bundle`
+3.  Authenticate with Github.
+    ```
+    gh auth login
+    ```
 
 NOTE: Search for apps [here](https://formulae.brew.sh/).
 
