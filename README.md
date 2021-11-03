@@ -55,7 +55,3 @@ NOTE: Search for apps [here](https://formulae.brew.sh/).
 3.  Local aliases created under `zsh/` will be automatically
     sourced and not checked into git. These must be suffixed
     with `local.zsh`. E.g., `aliases.local.zsh`.
-
-## TODO
-- [ ] Create script to initialize everything above
-- [x] Add `.zshrc` and generalize it
