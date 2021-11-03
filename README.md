@@ -6,7 +6,7 @@
 <h1 align="center">
   Dotfiles
 </h1>
-My local dotfiles.
+My local dotfiles. Steps should be followed in order.
 
 ## Usage
 1.  Clone the repository
@@ -37,13 +37,13 @@ My local dotfiles.
 
 ### Brew
 1.  Install [Brew](https://brew.sh).
-2.  `cd macos && brew bundle`
-3.  Authenticate with Github.
-    ```
-    gh auth login
-    ```
+2.  Install casks and packages: `cd macos && brew bundle`.
 
 NOTE: Search for apps [here](https://formulae.brew.sh/).
+
+### Git
+1.  Erase any pending credentials: `git credential-osxkeychain erase`.
+1.  Authenticate with Github: `gh auth login`.
 
 ### Zsh
 1.  Install [Oh My Zsh](https://ohmyz.sh/)
