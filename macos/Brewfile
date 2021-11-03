@@ -1,4 +1,5 @@
 # brew install
+brew 'gh'
 brew 'yarn'
 
 # brew install --cask
