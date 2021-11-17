@@ -1,5 +1,6 @@
 # brew install
 brew 'gh'
+brew 'pnpm'
 brew 'yarn'
 
 # brew install --cask
